@@ -1,6 +1,6 @@
 import { Given, And, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
-Given('eu estou na página de login da aplicação', () => {
+Given('eu acesso a página de login da aplicação', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
 });
 

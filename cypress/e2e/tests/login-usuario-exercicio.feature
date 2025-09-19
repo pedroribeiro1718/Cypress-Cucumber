@@ -4,7 +4,7 @@
     Para fazer uso das funcionalidades a que tenho acesso
 
 Scenario: Autenticação de usuário com sucesso
-    Given eu estou na página de login da aplicação
+    Given eu acesso a página de login da aplicação
     And eu preencho o meu login de acesso "Admin"
     And eu preencho a minha senha de acesso "admin123"
     When eu solicito acesso ao sistema
